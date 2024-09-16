@@ -1,0 +1,128 @@
+body {
+    margin: 0;  
+}
+
+#slide{
+    background-size: cover; /* Garante que a imagem cubra todo o fundo */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    height: 70vh;
+    background-image: url(../img/mao.png);
+}
+
+header {
+    background-color: #7ed957;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    padding: 20px 40px; /* Aumenta o espaçamento interno do cabeçalho */
+    position: fixed;
+    top: 10px; /* Espaçamento do topo */
+    left: 20px; /* Espaçamento lateral do lado esquerdo */
+    right: 20px; /* Espaçamento lateral do lado direito */
+    z-index: 1000; /* Garante que o cabeçalho fique sobre outros elementos */
+}
+
+.container {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente a logo */
+    align-items: center; /* Centraliza verticalmente a logo */
+    margin-right: 20px; /* Espaço entre a logo e os itens de navegação */
+}
+
+.logo img {
+    max-height: 100px; /* Ajusta a altura máxima da logo */
+}
+
+nav {
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens de navegação */
+    flex-grow: 1; 
+    justify-content: center; /* Centraliza horizontalmente os itens de navegação */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #000000; /* Define a cor do texto como preto*/
+    text-decoration: none;
+    font-weight: bold; /* Define o peso da fonte como "negrito"*/
+    padding: 20px 30px; /* Adiciona espaçamento interno  */
+    font-size: 20px; /* Tamanho da letra */
+    font-family: "Bebas Neue", sans-serif; /* Define a fonte */
+    text-decoration: underline; /* Linha abaixo do texto */
+}
+
+.text {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente o texto */
+    align-items: center; /* Centraliza verticalmente o texto */
+    height: 15vh; /* Faz com que a div ocupe toda a altura da tela */
+    text-align: center;
+    margin: 0%;
+}
+
+.text h3{
+    font-size: 26px; /* Tamanho da fonte */
+    font-weight: 300;
+    width: 80%;
+    line-height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1c1f22;
+    margin: 0; /* Remove margens */
+}
+
+
+
+.text h1 {
+    font-size: 35px; /* Tamanho da fonte */
+    font-weight: 300;
+    width: 80%;
+    line-height: 40px;
+    font-family: Impact, Haettenschweiler, sans-serif;
+    color: #000d1a;
+    margin: 10px; 
+    font-weight: bold;
+}
+
+.text h4 {
+    font-size: 14px; /* Tamanho da fonte */
+    font-weight: 300;
+    width: 80%;
+    line-height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000d1a;
+    margin: 10px; 
+    font-weight: bold;}
+
+footer {
+    background-color:green; /* Cor de fundo do rodapé */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 20px;
+    color: #0f0f0f; 
+    font-family: "Bebas Neue", sans-serif; /* Fonte do texto */
+    margin: 0;
+    font-weight: bold; /*Negrito*/
+}
